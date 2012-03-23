@@ -78,7 +78,7 @@ function base_event_field_default_fields() {
           'summary_rows' => 5,
         ),
         'type' => 'text_textarea_with_summary',
-        'weight' => '3',
+        'weight' => '5',
       ),
     ),
   );
@@ -107,7 +107,7 @@ function base_event_field_default_fields() {
       'module' => 'text',
       'settings' => array(),
       'translatable' => '0',
-      'type' => 'text_with_summary',
+      'type' => 'text_long',
     ),
     'field_instance' => array(
       'bundle' => 'event_base',
@@ -120,7 +120,7 @@ function base_event_field_default_fields() {
           'module' => 'text',
           'settings' => array(),
           'type' => 'text_default',
-          'weight' => '3',
+          'weight' => 6,
         ),
         'teaser' => array(
           'label' => 'above',
@@ -134,7 +134,6 @@ function base_event_field_default_fields() {
       'label' => 'What to Bring',
       'required' => 0,
       'settings' => array(
-        'display_summary' => 0,
         'text_processing' => '1',
         'user_register_form' => FALSE,
       ),
@@ -142,10 +141,9 @@ function base_event_field_default_fields() {
         'active' => 1,
         'module' => 'text',
         'settings' => array(
-          'rows' => '5',
-          'summary_rows' => 5,
+          'rows' => '3',
         ),
-        'type' => 'text_textarea_with_summary',
+        'type' => 'text_textarea',
         'weight' => '6',
       ),
     ),
@@ -232,7 +230,7 @@ function base_event_field_default_fields() {
           'year_range' => '-3:+3',
         ),
         'type' => 'date_popup',
-        'weight' => '4',
+        'weight' => '2',
       ),
     ),
   );
@@ -313,7 +311,7 @@ function base_event_field_default_fields() {
           'progress_indicator' => 'throbber',
         ),
         'type' => 'image_image',
-        'weight' => '5',
+        'weight' => '3',
       ),
     ),
   );
@@ -342,7 +340,7 @@ function base_event_field_default_fields() {
       'module' => 'text',
       'settings' => array(),
       'translatable' => '0',
-      'type' => 'text_with_summary',
+      'type' => 'text_long',
     ),
     'field_instance' => array(
       'bundle' => 'event_base',
@@ -355,7 +353,7 @@ function base_event_field_default_fields() {
           'module' => 'text',
           'settings' => array(),
           'type' => 'text_default',
-          'weight' => '4',
+          'weight' => 7,
         ),
         'teaser' => array(
           'label' => 'above',
@@ -369,7 +367,6 @@ function base_event_field_default_fields() {
       'label' => 'Weather Notes',
       'required' => 0,
       'settings' => array(
-        'display_summary' => 0,
         'text_processing' => '1',
         'user_register_form' => FALSE,
       ),
@@ -377,10 +374,9 @@ function base_event_field_default_fields() {
         'active' => 1,
         'module' => 'text',
         'settings' => array(
-          'rows' => '5',
-          'summary_rows' => 5,
+          'rows' => '2',
         ),
-        'type' => 'text_textarea_with_summary',
+        'type' => 'text_textarea',
         'weight' => '7',
       ),
     ),
